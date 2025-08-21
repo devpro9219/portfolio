@@ -19,36 +19,27 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I'm a <b className="purple">Senior Software Engineer</b> with a passion for building reliable,
-              scalable, and performant full-stack applications.
+              Results-driven <b className="purple">Senior Software Engineer</b> with 8 years of professional experience
+              in designing, developing, and deploying <b className="purple">scalable web applications</b> and
+              <b className="purple"> microservices</b>.
               <br />
               <br />
-              I'm fluent in modern programming languages like{" "}
-              <i>
-                <b className="purple">JavaScript, TypeScript, Go, C++, and Python</b>
-              </i>, and I specialize in full-stack development using technologies like{" "}
-              <b className="purple">React.js, Next.js, Node.js, Laravel, and MySQL</b>.
+              Proven expertise in{" "}
+              <b className="purple">Golang</b>, <b className="purple">Rust</b>, <b className="purple">React.js</b>,{" "}
+              <b className="purple">PostgreSQL</b>, and modern cloud-native technologies including{" "}
+              <b className="purple">Docker</b>, <b className="purple">Kubernetes</b>, and{" "}
+              <b className="purple">Google Cloud Platform (GCP)</b>.
               <br />
               <br />
-              I work extensively with{" "}
-              <i>
-                <b className="purple">GitHub, Git workflows, and open source collaboration</b>
-              </i>. I’m experienced in setting up robust CI/CD pipelines using{" "}
-              <b className="purple">GitHub Actions, GitLab CI, and CircleCI</b>.
+              Skilled in leading cross-functional teams, mentoring junior engineers, and collaborating across
+              agile product environments to deliver <b className="purple">business-critical solutions</b>.
               <br />
               <br />
-              As a DevOps enthusiast, I build and deploy cloud-native applications using{" "}
-              <b className="purple">Docker, Kubernetes, Vercel, and AWS</b>. I automate infrastructure with{" "}
-              <b className="purple">Terraform</b> and monitor performance with tools like{" "}
-              <b className="purple">Grafana and Datadog</b>.
-              <br />
-              <br />
-              I’m also skilled in integrating third-party platforms like{" "}
-              <b className="purple">HubSpot, Intercom, Stripe, and PayPal</b> to create seamless user experiences.
-              <br />
-              <br />
-              Outside of work, I contribute to open source and enjoy solving complex architecture and deployment challenges.
+              Strong foundation in <b className="purple">software architecture</b>,{" "}
+              <b className="purple">CI/CD pipelines</b>, <b className="purple">observability</b>, and full{" "}
+              <b className="purple">SDLC ownership</b>.
             </p>
+
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
@@ -65,7 +56,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/devpro9219"
+                  href="https://github.com/bijannavar"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -73,7 +64,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://twitter.com/yourhandle"
                   target="_blank"
@@ -82,10 +73,10 @@ function Home2() {
                 >
                   <AiOutlineTwitter />
                 </a>
-              </li>
+              </li> */}
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/yourlinkedin/"
+                  href="https://www.linkedin.com/in/bijan-navar-82043337b/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -93,7 +84,7 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://www.instagram.com/yourhandle"
                   target="_blank"
@@ -102,7 +93,7 @@ function Home2() {
                 >
                   <AiFillInstagram />
                 </a>
-              </li>
+              </li> */}
             </ul>
           </Col>
         </Row>

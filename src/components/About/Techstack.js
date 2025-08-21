@@ -22,47 +22,71 @@ import { TbBrandGolang } from "react-icons/tb";
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      {/* Languages */}
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <TbBrandGolang title="Go" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <SiRust title="Rust" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+        <DiJavascript1 title="JavaScript" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <DiPython title="Python" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <DiJava title="Java" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <CgCPlusPlus title="C++" />
+      </Col>
+
+      {/* Front-End */}
+      <Col xs={4} md={2} className="tech-icons">
+        <DiReact title="React.js" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <SiNextdotjs title="Next.js" />
+      </Col>
+
+      {/* Back-End & DevOps */}
+      <Col xs={4} md={2} className="tech-icons">
+        <DiNodejs title="Node.js" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <SiDocker title="Docker" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <SiKubernetes title="Kubernetes" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <DiGit title="Git / CI/CD" />
+      </Col>
+
+      {/* Databases */}
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostgresql title="PostgreSQL" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
+        <DiMongodb title="MongoDB" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
+        <SiRedis title="Redis" />
+      </Col>
+
+      {/* Cloud & Observability */}
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAmazonaws title="AWS" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <SiGooglecloud title="GCP" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <SiGrafana title="Grafana" />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPrometheus title="Prometheus" />
       </Col>
     </Row>
   );

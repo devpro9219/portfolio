@@ -27,7 +27,7 @@ function Projects() {
               isBlog={false}
               title="CariClub"
               description="Our mission is to unlock the potential within each individual to become a driving force for good."
-              ghLink="https://github.com/devpro9219/CariClub"
+              ghLink=""
               demoLink="https://cariclub.com/"
             />
           </Col>
@@ -38,7 +38,7 @@ function Projects() {
               isBlog={false}
               title="Hisync (Sass)"
               description="Our platform automatically syncs key data from your Intercom account to HubSpot—covering tickets, contacts, and conversion metrics—so you can manage and analyze your customer interactions from a single source."
-              ghLink="https://github.com/devpro9219/hisync"
+              ghLink=""
               demoLink="https://hisync.io/"
             />
           </Col>
@@ -49,7 +49,7 @@ function Projects() {
               isBlog={false}
               title="Sharpmower (Sass)"
               description="Sharpmower is a SaaS platform that manages multiple order truck statuses, handling the entire process from lead assignment to payment."
-              ghLink="https://github.com/devpro9219/Editor.io"
+              ghLink=""
               demoLink="https://admin.servasw.com/"              
             />
           </Col>
@@ -60,7 +60,7 @@ function Projects() {
               isBlog={false}
               title="DealerAddendums"
               description="DealerAddendums is a platform that streamlines the creation, management, and printing of vehicle sales documents. It helps dealers efficiently generate and handle sales-related paperwork, ensuring smooth transaction processes."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
+              ghLink=""
               demoLink="https://dealeraddendums.com"
             />
           </Col>
@@ -71,7 +71,7 @@ function Projects() {
               isBlog={false}
               title="SoftWare4School"
               description="Software4School is a platform that combines CRM (Customer Relationship Management) and HRM (Human Resource Management) functionalities tailored for managing students and educational processes. It's also a SaaS project, offering cloud-based solutions to streamline student management, communication, and administrative tasks."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              ghLink=""
               demoLink="https://software4school.com"
             />
           </Col>
@@ -82,7 +82,7 @@ function Projects() {
               isBlog={false}
               title="Instantinsites"
               description="InstantInsites is a platform that performs web scraping from various websites. It helps users analyze and interpret website UI, UX, and product detail pages by extracting data, making it easier to understand layout structures and design elements."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              ghLink=""
               demoLink="https://instantinsites.com" 
             />
           </Col>
