@@ -1,23 +1,22 @@
+// src/components/About/Techstack.js
+
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
-import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
-  DiJava,
-} from "react-icons/di";
-import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
-} from "react-icons/si";
+
+// Languages
 import { TbBrandGolang } from "react-icons/tb";
+import { SiRust } from "react-icons/si";
+import { DiJavascript1, DiPython, DiJava, DiReact, DiNodejs, DiGit, DiMongodb } from "react-icons/di";
+import { CgCPlusPlus } from "react-icons/cg";
+
+// Frameworks & Libraries
+import { SiNextdotjs } from "react-icons/si";
+
+// Databases
+import { SiPostgresql, SiRedis } from "react-icons/si";
+
+// DevOps & Cloud
+import { SiDocker, SiKubernetes, SiAmazonaws, SiGooglecloud, SiGrafana, SiPrometheus } from "react-icons/si";
 
 function Techstack() {
   return (
